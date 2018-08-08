@@ -9,8 +9,8 @@ class PigLatinizer
         "ay"+word
       else
         word[1..-1]+word[0]+"ay"
-      end.join(" ")
+      end
       binding.pry
-    end
+    end.join(" ")
   end
 end
