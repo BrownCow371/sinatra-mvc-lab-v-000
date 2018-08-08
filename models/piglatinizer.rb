@@ -1,6 +1,6 @@
 class PigLatinizer
 
-  def initialize(phrase = nil)
+  def initialize(phrase = "")
     @phrase = phrase
   end
 
