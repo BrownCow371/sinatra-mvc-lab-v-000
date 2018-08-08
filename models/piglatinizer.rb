@@ -11,7 +11,8 @@ class PigLatinizer
         word+"way"
       elsif word[-2..-1] =="ay"
         "ay"+word
-      else 
+      else
         word[1..-1]+word[0]+"ay"
-      end
+      end.join(" ")
+    end
 end
